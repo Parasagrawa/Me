@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paras Agrawal - Personal Webpage</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    body {
+      background: url('https://img.freepik.com/free-vector/pattern-with-black-stars-white-background_1110-366.jpg?t=st=1746026532~exp=1746030132~hmac=cd0f9fc7f6cc4debc6efd595d7fe35c2358369762efd00667f54ace51dfd3c69&w=826') repeat;
+      background-size: contain;
+      background-attachment: fixed;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.9);
+      z-index: -1;
+    }
+    header {
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .about, .interests, .goals {
+      background: white;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+    .interests .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      flex: 1 1 200px;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.3s;
+      position: relative;
+      color: white;
+      overflow: hidden;
+    }
+    .card img.background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 0;
+      filter: brightness(0.4);
+    }
+    .card-content {
+      position: relative;
+      z-index: 1;
+      padding: 20px;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #f8f9fa;
+    }
+    .social-icons i {
+      font-size: 24px;
+      margin: 0 10px;
+      color: #555;
+      cursor: pointer;
+      transition: color 0.3s;
+    }
+    .social-icons i:hover {
+      color: #2193b0;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <h1>Paras Agrawal</h1>
+    <p>Curious by nature, driven by passion — I believe technology can shape a better future.</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm <strong>Paras Agrawal</strong>, a 14-year-old student currently studying in 9th standard. I live in the beautiful town of <strong>Narsinghgarh, Madhya Pradesh</strong> in India. I'm extremely passionate about technology and always stay updated with the latest innovations. I love diving into gadgets, exploring tech trends, and expanding my knowledge every day.</p>
+  </section>
+
+  <section class="interests">
+    <h2>My Interests</h2>
+    <div class="cards">
+      <div class="card">
+        <img class="background" src="https://edsential.com/wp-content/uploads/2018/07/Wizarding-World-of-Harry-Potter.jpg" alt="Harry Potter Background">
+        <div class="card-content">
+          <h3> Favorite Book</h3>
+          <p>Harry Potter</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="background" src="https://www.indianhealthyrecipes.com/wp-content/uploads/2024/04/white-sauce-pasta-480x270.jpg" alt="White Sauce Pasta">
+        <div class="card-content">
+          <h3> Favorite Food</h3>
+          <p>Hot Cheese Pasta</p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="background" src="https://awesomestufftobuy.com/wp-content/uploads/2024/01/rabbit-r1-ai-virtual-assistant-450x450.jpg" alt="Rabbit AI">
+        <div class="card-content">
+          <h3> Hobbies</h3>
+          <p>Exploring gadgets, reading fantasy novels, trying new tech gadgets</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="goals">
+    <h2>Goals & Dreams</h2>
+    <p>My dream is to become a tech entrepreneur or software developer. I want to create technologies that help people and make their lives easier, more connected, and more efficient.</p>
+  </section>
+
+  <footer>
+    <h3>Connect with Me</h3>
+    <div class="social-icons">
+      <i class="fab fa-envelope"></i>
+      <i class="fab fa-github"></i>
+      <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Gmail: <a href="mailto:parasagrawal52114@gmail.com">parasagrawal52114@gmail.com</a></p>
+  </footer>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
